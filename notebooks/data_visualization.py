@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 from matplotlib.dates import AutoDateLocator, ConciseDateFormatter
 
-df = pd.read_csv('/Users/alirazaz/PycharmProjects/Crypto-model/BTC-predection-model/Binance_BTCUSDT_d.csv')
+df = pd.read_csv('../data/daily/Binance_BTCUSDT_d.csv')
 
 print("---" * 50)
 print("Columns of file: \n")
